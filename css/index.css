@@ -1,0 +1,201 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #FCF3CF;
+}
+
+.jumbotron {
+  background-color: #FCF3CF;
+}
+
+.navbar {
+  background: #D68910;
+}
+
+.nav-link,
+.navbar-brand {
+  margin-bottom: 10px;
+  cursor: pointer;
+  color: #F7DC6F;
+}
+
+.nav-link {
+  margin-right: 1em !important;
+}
+
+.nav-link:hover {
+  color: #000;
+}
+
+.navbar-collapse {
+  justify-content: flex-end;
+}
+
+.header {
+  position: relative;
+  background-color: #F7DC6F;
+  background-position: center;
+  background-size: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.description {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -55%);
+  text-align: center;
+}
+
+.description h1 {
+  color: #fff;
+}
+
+.description h2 {
+  color: #88774E;
+}
+
+.description h3 {
+  font-style: oblique;
+}
+
+.description p {
+  color: #fff;
+  font-size: 1.8rem;
+  line-height: 1.5;
+}
+
+.description button {
+  color: #fff;
+  border: 1px solid #6ab446;
+  border-radius: 0;
+  background: #6ab446;
+}
+
+.description button:hover {
+  color: #000;
+  border: 1px solid #fff;
+  background: #fff;
+}
+
+.features {
+  position: sticky;
+  margin: 4em auto;
+  padding: 1em;
+}
+
+.feature-title {
+  margin-bottom: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #333;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.features img {
+  margin-bottom: 16px;
+  -webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+}
+
+.features .form-control,
+.features input {
+  margin-bottom: 20px;
+  border-radius: 0;
+}
+
+.features .btn {
+  width: 100%;
+  margin-top: 20px;
+  color: #fff;
+  border: 1px solid #589b37;
+  background-color: #589b37;
+}
+
+.features .btn:hover {
+  border: 1px solid #333;
+  background-color: #333;
+}
+
+.jumbotron {
+  margin-bottom: 0;
+}
+
+.container {
+  text-align: center;
+}
+
+.footer {
+  margin: auto;
+  text-align: center;
+}
+
+.form {
+  margin: auto;
+  text-align: center;
+}
+
+@font-face {
+  font-family: kghappy;
+  src: url('../font/kghappy.ttf');
+}
+
+h1 {
+  font-family: kghappy;
+}
+
+@font-face {
+  font-family: splodge;
+  src: url('../font/splodge.otf');
+}
+
+p {
+  font-family: splodge;
+}
+
+@font-face {
+  font-family: splodge;
+  src: url('../font/splodge.otf');
+}
+
+h3 {
+  font-family: splodge;
+}
+
+@font-face {
+  font-family: splodge;
+  src: url('../font/splodge.otf');
+}
+
+h2 {
+  font-family: splodge;
+}
+
+a {
+  text-decoration: none;
+}
+
+.center {
+  width: 60%;
+  margin: auto;
+  padding: 10px;
+}
+
+.left {
+  position: absolute;
+  left: 150px;
+  width: auto;
+  height: auto;
+  padding: 100px;
+  border: 2px solid white;
+}
